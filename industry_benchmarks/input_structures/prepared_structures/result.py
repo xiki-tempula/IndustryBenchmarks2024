@@ -1,0 +1,7 @@
+ligands = 'cdk8 cmet    eg5     hif2a   shp2    syk'.split()
+for ligand in ligands:
+    # print(f"--project IndustryBenchmarks --priority low-priority abfe --ligands s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/input_files/merck/{ligand}/ligands.sdf --bss s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/input_files/merck/{ligand}/protein.bss --ligands-out s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/merck/{ligand}/repeat_1/abfe.sdf")
+    print(
+        f"--project IndustryBenchmarks --priority low-priority abfe --ligands s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/input_files/merck/{ligand}/ligands.sdf --bss s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/input_files/merck/{ligand}/protein.bss --ligands-out s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/merck/{ligand}/repeat_2/abfe.sdf")
+    print(
+        f"--project IndustryBenchmarks --priority low-priority abfe --ligands s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/input_files/merck/{ligand}/ligands.sdf --bss s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/input_files/merck/{ligand}/protein.bss --ligands-out s3://exs-mdteam-data/MD_ARGO_WORKFLOWS_DATA/MD_BENCHMARK_DATA/industry_benchmarks/merck/{ligand}/repeat_3/abfe.sdf")
